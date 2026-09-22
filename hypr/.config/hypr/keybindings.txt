@@ -1,0 +1,100 @@
+           ATALHOS DO TECLADO  —  Hyprland / Noctalia
+
+  SUPER = tecla Windows       Sair: q       Buscar: /texto       Rolar: ↑ ↓  PgUp PgDn
+
+
+──  JANELAS  ───────────────────────────────────────────────────────────
+
+  SUPER + Q                        Fechar janela
+  SUPER + Escape                   Matar janela (seletor "hyprctl kill")
+  SUPER + ALT + Space              Flutuar / tilar (alterna)
+  SUPER + D                        Maximizar (preenche o workspace, mantém a barra)
+  SUPER + F                        Tela cheia (cobre a barra)
+  SUPER + G                        Colar nas bordas (zera gaps/cantos) <-> normal
+  SUPER + SHIFT + C                Recentralizar janela em foco (util p/ janelas que abrem fora da tela)
+  SUPER + J                        Alternar orientação do split
+  SUPER + P                        Conta-gotas de cor (hyprpicker)
+
+
+──  FOCO  ──────────────────────────────────────────────────────────────
+
+  SUPER + ← ↑ ↓ →                  Mover o foco na direção
+  ALT + Tab                        Alternar entre janelas
+  SUPER + Tab                      Window switcher (Noctalia)
+
+
+──  MOVER JANELA  ──────────────────────────────────────────────────────
+
+  SUPER + SHIFT + ← ↑ ↓ →          Mover janela na direção
+  SUPER + SHIFT + 1…9              Enviar janela para o workspace N
+  SUPER + SHIFT + CONTROL + 1…9    Enviar para o workspace N do monitor atual
+  SUPER + ALT + SHIFT + 1 / 2 / 3  Enviar janela para o monitor 1 / 2 / 3
+  SUPER + CONTROL + SHIFT + ← / →  Enviar para o workspace do monitor  - / +
+  SUPER + SHIFT + roda do mouse    Enviar janela para o monitor  - / +
+  SUPER + CONTROL + SHIFT + roda   Enviar janela para o workspace  - / +
+
+
+──  REDIMENSIONAR  ─────────────────────────────────────────────────────
+
+  SUPER + -   /   SUPER + =        Largura  - / +   (segurar repete)
+  SUPER + SHIFT + -  /  + =        Altura  - / +
+  SUPER + arrastar botão esq.     Mover janela com o mouse
+  SUPER + arrastar botão dir.     Redimensionar janela com o mouse
+
+
+──  ZOOM (lupa do cursor)  ─────────────────────────────────────────────
+
+  SUPER + numpad -  /  numpad +    Diminuir / aumentar o zoom
+
+
+──  WORKSPACES E MONITORES  ───────────────────────────────────────────
+
+  SUPER + 1…9                      Ir para o workspace N
+  SUPER + CONTROL + 1…9            Ir para o workspace N do monitor atual
+  SUPER + CONTROL + ← / →          Workspace  anterior / seguinte  do monitor
+  SUPER + CONTROL + ↓              Próximo workspace vazio do monitor
+  SUPER + roda do mouse            Workspace  anterior / seguinte
+  SUPER + ALT + 1 / 2 / 3          Focar o monitor 1 / 2 / 3
+  SUPER + S                        Abrir / fechar o scratchpad
+  SUPER + SHIFT + S               Enviar janela para o scratchpad
+
+
+──  APLICATIVOS  ──────────────────────────────────────────────────────
+
+  SUPER + Return                   Terminal (kitty)
+  SUPER + W                        Navegador (firefox)
+  SUPER + E                        Arquivos (dolphin)
+  SUPER + T                        Editor de texto
+  SUPER + C                        Calculadora
+  CONTROL + SHIFT + Escape         btop (monitor do sistema)
+
+
+──  NOCTALIA (shell)  ─────────────────────────────────────────────────
+
+  SUPER + Space                    Launcher
+  SUPER + .                        Launcher de emojis
+  SUPER + Z                        Configurações do Noctalia
+  SUPER + X                        Central de controle
+  SUPER + A                        Notificações
+  SUPER + V                        Histórico da área de transferência
+  SUPER + SHIFT + W               Seletor de wallpaper
+  SUPER + L                        Bloquear a tela
+  SUPER + ALT + C                  Menu de sessão (logout / reiniciar / desligar)
+
+
+──  CAPTURA DE TELA  ──────────────────────────────────────────────────
+
+  Print                           Capturar uma região
+  SUPER + Print                   Capturar a tela inteira
+
+
+──  TECLAS DE HARDWARE  ───────────────────────────────────────────────
+
+  Volume + / - / Mudo, Mic Mudo   Áudio
+  Play / Pause / Próx. / Ant.     Mídia
+  Brilho + / -                    Brilho da tela
+
+
+──  AJUDA  ────────────────────────────────────────────────────────────
+
+  SUPER + ALT + K                  Mostrar / ocultar esta lista
