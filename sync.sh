@@ -6,15 +6,19 @@ set -euo pipefail
 DOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 sync_pkg() {
-  local pkg="$1" src="$2"
-  rsync -a --delete --exclude='*.bak.*' "$src/" "$DOT/$pkg/.config/$pkg/"
+  local pkg="$1" src="$2"; shift 2
+  rsync -a --delete --exclude='*.bak.*' "$@" "$src/" "$DOT/$pkg/.config/$pkg/"
 }
 
 sync_pkg hypr      "$HOME/.config/hypr"
 sync_pkg kitty     "$HOME/.config/kitty"
 sync_pkg alacritty "$HOME/.config/alacritty"
 sync_pkg btop      "$HOME/.config/btop"
-sync_pkg fish      "$HOME/.config/fish"
+# automacao-etcm.fish e cauc.fish citam projetos/caminhos de trabalho —
+# ficam só no sistema local, fora do repo público.
+sync_pkg fish      "$HOME/.config/fish" \
+  --exclude='functions/automacao-etcm.fish' \
+  --exclude='functions/cauc.fish'
 cp "$HOME/.config/noctalia/config.toml" "$DOT/noctalia/.config/noctalia/config.toml"
 
 echo "sincronizado. revise com: git -C $DOT status"
