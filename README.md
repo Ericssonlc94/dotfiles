@@ -1,7 +1,15 @@
-# dotfiles — rice Arch + Hyprland + Noctalia
+# dotfiles — September Noctalia
+Config do meu setup: CachyOS/Arch, Hyprland (config em Lua), shell Noctalia (bar/UI), terminal kitty/alacritty com tema Noctalia, btop com tema Noctalia, fish shell.
 
-Config do meu setup: CachyOS/Arch, Hyprland (config em Lua), shell Noctalia (bar/UI),
-terminal kitty/alacritty com tema Noctalia, btop com tema Noctalia, fish shell.
+<img width="1920" height="1080" alt="satty-2026-09-23_11:36:46" src="https://github.com/user-attachments/assets/30f8ef70-c2f1-4478-8a2a-3e64ceb9fb4e" />
+
+<img width="1920" height="1080" alt="satty-2026-09-23_11:43:00" src="https://github.com/user-attachments/assets/d6cbb2b8-23e0-4ea0-ac9a-e76dff2539e7" />
+
+## Atalhos inspirados no Omarchy Quattro (keyboard friendly)
+Na imagem abaixo, prévia dos atalhos do sistema (abre com sudo + alt + k)
+
+<img width="1090" height="853" alt="satty-2026-09-23_11:43:39" src="https://github.com/user-attachments/assets/d756240f-bcbf-4a18-808d-312580a2ae3e" />
+
 
 ## Estrutura
 
