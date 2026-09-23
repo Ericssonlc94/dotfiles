@@ -3,13 +3,6 @@
 -- Layer rules (bars, panels) wiki https://wiki.hypr.land/Configuring/Basics/Window-Rules/#layer-rules
 hl.layer_rule({ match = { namespace = "noctalia-bar-default" }, blur = true })
 
--- Assinador SERPRO opens some dialogs off-screen (negative x) on this multi-monitor setup
-hl.window_rule({
-    match = { class = "^(org-demoiselle-signer-serpro-desktop-Main)$" },
-    float = true,
-    center = true,
-})
-
 -- Generic floating position
 hl.window_rule({ match = { float = true }, center = true, persistent_size = true })
 

@@ -10,7 +10,7 @@ local launchPrefix = "uwsm app -- " -- if you are not using UWSM, make this empt
 hl.bind(mainMod .. " + Escape",      hl.dsp.exec_cmd("hyprctl kill"))
 hl.bind(mainMod .. " + Q",           hl.dsp.window.close())
 hl.bind(mainMod .. " + ALT + Space", hl.dsp.window.float({ action = "toggle" }))
-hl.bind(mainMod .. " + SHIFT + C",   hl.dsp.window.center()) -- recentraliza a janela em foco (util p/ dialogs que abrem fora da tela, ex: Assinador SERPRO)
+hl.bind(mainMod .. " + SHIFT + C",   hl.dsp.window.center()) -- recentraliza a janela em foco (util p/ dialogs que abrem fora da tela)
 hl.bind(mainMod .. " + D",           hl.dsp.window.fullscreen({ mode = 1 }))
 hl.bind(mainMod .. " + F",           hl.dsp.window.fullscreen())
 hl.bind(mainMod .. " + J",           hl.dsp.layout("togglesplit"))
